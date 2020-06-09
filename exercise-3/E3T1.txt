@@ -1,0 +1,9 @@
+# Describe GuardDuty findings that were detected related to the brute force attack
+
+GuardDuty is listing UnauthorizedAccess:EC2/SSHBruteForce type of finding. Looking at the details of the finding information about the severity of the treaty, resources affected, actions taken as well as actor of the brute force are displayed.
+
+
+# Research the AWS Guard Duty documentation page and explain how GuardDuty may have detected this attack - i.e. what was its source of information.
+
+Amazon GuardDuty is a continuous security monitoring service that analyzes and processes the following data sources: VPC Flow Logs, AWS CloudTrail event logs, and DNS logs. GuardDuty monitoring traffic on port 22 and This finding’s severity is low if a brute force attack is aimed at one of your EC2 instances. This finding’s severity is high if your EC2 instance is being used to perform the brute force attack.
+

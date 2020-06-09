@@ -1,0 +1,6 @@
+Based on the architecture diagram, and the steps you have taken so far to upload data and access the application web service, identify at least 2 obvious poor practices as it relates to security.  Include justification.
+
+1. Web Service instance is provisioned in public subnet and port access is unrestricted. Instance should be moved to the private subnet and ports used should be specific.
+
+2. S3 buckets don't have default server-side encryption enabled and block public access is disabled. These are the best practices which should be used whenever possible such as in this case.
+

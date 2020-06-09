@@ -1,0 +1,27 @@
+# Identify tools that will allow you to do the following:
+
+## Scan infrastructure as code templates
+
+-  Regula
+
+### Example vulnerability
+
+
+
+##Scan AMI’s or containers for OS vulnerabilities
+
+-   Anchore Engine, an open source tool for deep image inspection and vulnerability scanning. It perform detailed analysis of container images, producing reports and defining policies that can be used in CI/CD pipelines
+
+### Example vulnerability
+
+- Integer overflow in the decode_digit function in puny_decode.c in Libidn2 before 2.0.4 allows remote attackers to cause a denial of service or possibly have unspecified other impact
+
+
+##Scan an AWS environment for cloud configuration vulnerabilities
+
+-  AWS SecurityHub, security monitoring services which includes tools such as AWS Config, Inspector, GuardDuty, and many open source and commercial tools
+
+
+### Example vulnerability
+
+-  Unrestricted S3 CRUD permission and missing server side encription
