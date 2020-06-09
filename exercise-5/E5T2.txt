@@ -6,6 +6,8 @@
 
 ### Example vulnerability
 
+- Failures: (1) [high] [aws_s3_bucket.my_s3_bucket.acl] should not be 'public-read-write'.  Terraform detected that infrastructure template	leaves aws_s3_bucket resource containing a “public-read-write” ACL.
+
 
 
 ##Scan AMI’s or containers for OS vulnerabilities
@@ -15,6 +17,7 @@
 ### Example vulnerability
 
 - Integer overflow in the decode_digit function in puny_decode.c in Libidn2 before 2.0.4 allows remote attackers to cause a denial of service or possibly have unspecified other impact
+
 
 
 ##Scan an AWS environment for cloud configuration vulnerabilities
